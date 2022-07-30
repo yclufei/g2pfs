@@ -2,7 +2,7 @@
 header('Content-type:image/jpeg');
 
 include 'phpqrcode/phpqrcode.php'; 
-$value = 'http://127.0.0.1:8080/endoc/detail.php?f='.$_GET['data']; //二维码内容 
+$value = 'http://45.136.119.31:81/g2pfs/endoc/detail.php?f='.$_GET['data']; //二维码内容 
 $errorCorrectionLevel = 'L';//容错级别 
 $matrixPointSize = 6;//生成图片大小 
 //生成二维码图片 

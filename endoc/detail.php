@@ -36,7 +36,6 @@
     </head>
     <body>
 
-<a href="index.php">首页</a>
 
 			<img src="../qrcode/qrcode.php?data=<?php echo $value; ?>" width="56" height="56">
 <br><br>

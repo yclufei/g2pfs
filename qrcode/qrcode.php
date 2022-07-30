@@ -1,5 +1,5 @@
 <?php
-header('Content-type:image/jpeg');
+header('Content-type:image/png');
 
 include 'phpqrcode/phpqrcode.php'; 
 $value = 'http://45.136.119.31:81/g2pfs/endoc/detail.php?f='.$_GET['data']; //¶þÎ¬ÂëÄÚÈÝ 

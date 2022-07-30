@@ -27,7 +27,7 @@ if ($logo !== FALSE)
 } 
 
 
-$outfile = $value.'.png';
+$outfile = $_GET['data'].'.png';
 imagepng($QR, $outfile); 
 echo $outfile; 
 

@@ -27,7 +27,7 @@ if ($logo !== FALSE)
 } 
 
 
-$outfile = 'doc/'.$value.'.png';
+$outfile = $value.'.png';
 imagepng($QR, $outfile); 
 echo $outfile; 
 
